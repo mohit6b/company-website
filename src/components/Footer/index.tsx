@@ -144,10 +144,10 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-            {/* <SocialLink
+            <SocialLink
                 href="https://mohit.blockant.in/"
                 src="website.svg"
-              /> */}
+              />
               <SocialLink
                 href="https://github.com/blockant/"
                 src="github.svg"
