@@ -133,7 +133,7 @@ const Footer = ({ t }: any) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
-            <NavLink to="/">
+            {/* <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
                   src="logo.png"
@@ -142,7 +142,7 @@ const Footer = ({ t }: any) => {
                   height="64px"
                 />
               </LogoContainer>
-            </NavLink>
+            </NavLink> */}
             <FooterContainer>
             <SocialLink
                 href="https://mohit.blockant.in/"
