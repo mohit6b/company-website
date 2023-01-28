@@ -7,9 +7,7 @@ import i18n from "i18next";
 import {
   FooterSection,
   Title,
-  NavLink,
   Extra,
-  LogoContainer,
   Para,
   Large,
   Chat,
@@ -133,16 +131,6 @@ const Footer = ({ t }: any) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
-            {/* <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="logo.png"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer>
-            </NavLink> */}
             <FooterContainer>
             <SocialLink
                 href="https://mohit.blockant.in/"
