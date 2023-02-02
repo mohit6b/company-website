@@ -15,6 +15,8 @@ import {
   FooterContainer,
   Language,
   Label,
+  LogoContainer,
+  NavLink,
   LanguageSwitch,
   LanguageSwitchContainer,
 } from "./styles";
@@ -81,9 +83,9 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Hazariwaas Rewari</Para>
-              <Para>2017 3rd Street</Para>
-              <Para>Haryana</Para>
+              <Para>404/51 Gurugram</Para>
+              <Para>Bhim Vihar</Para>
+              <Para>Haryana 122001</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -131,6 +133,16 @@ const Footer = ({ t }: any) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
+            <NavLink to="/">
+              <LogoContainer>
+                <SvgIcon
+                  src="BlockAnt2.svg"
+                  aria-label="homepage"
+                  width="81px"
+                  height="54px"
+                />
+              </LogoContainer>
+            </NavLink>
             <FooterContainer>
             <SocialLink
                 href="https://mohit.blockant.in/"
